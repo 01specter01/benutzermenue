@@ -13,6 +13,7 @@ body {
 body,
 a {
     color: darkblue;
+    display: block;
 }
 nav {
     width: 280px;
@@ -38,6 +39,6 @@ li.custom-info:before {
     content: "i";
     font-weight: 900;
 }
-a:hover {
+li:hover a {
     color: crimson;
 }
